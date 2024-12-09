@@ -1,0 +1,27 @@
+﻿@page "/random"
+@rendermode InteractiveWebAssembly
+
+<h3>RandomPage</h3>
+
+@if (RendererInfo.IsInteractive)
+{
+    <p>Interactive</p>
+}
+else
+{
+    <p>Not interactive</p>
+    <p>Not interactive</p>
+}
+
+@* 
+This will work at first.
+Modify some code, add some html here. Then try to debug. 
+
+I get a Blazor.boot.json error.
+
+Error is fixed (temporarily) by cleaning the solution and rebuilding.
+*@
+
+@code {
+
+}
